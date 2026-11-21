@@ -9,14 +9,6 @@
             "problemMatcher": [
                 "$node-sass"
             ]
-        },
-        {
-            "type": "npm",
-            "script": "watch",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
         }
     ]
 }

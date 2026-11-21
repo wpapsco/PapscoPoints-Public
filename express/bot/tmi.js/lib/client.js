@@ -571,6 +571,8 @@ client.prototype.handleMessage = function handleMessage(message) {
                         var userstate = null;
 
                         //if (msg) {
+                        console.log("IN THE LIBRARY") //TODO: COMMENT OUT
+                        console.log(userstate) //
                         userstate = message.tags;
                         userstate['message-type'] = 'resub';
                         //}

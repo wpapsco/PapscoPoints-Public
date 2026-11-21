@@ -59,14 +59,8 @@ typings/
 # dotenv environment variables file
 .env
 
-curaditedb/
-
-# Elastic Beanstalk Files
-
-.elasticbeanstalk/*
-
-!.elasticbeanstalk/*.cfg.yml
-
-!.elasticbeanstalk/*.global.yml
-
-out
+curaditedb/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

@@ -1,6 +1,6 @@
 const path = require('path');
 module.exports = {
-  entry: './src/react/client.js',
+  entry: './src/js/client.js',
   output: {
     path: path.resolve('express/public/javascripts'),
     publicPath: '/',
@@ -10,7 +10,7 @@ module.exports = {
     modules: ['src', 'node_modules'],
   },
   module: {
-    rules: [
+    loaders: [
       {
         test: /\.(js|jsx)$/,
         exclude: /(node_modules)/,

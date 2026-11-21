@@ -1,0 +1,1 @@
+const feaf = (a: string): string => a.toUpperCase()

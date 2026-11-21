@@ -1,0 +1,8 @@
+1. twitchsignin works correctly
+2. points are given and message is sent on cheers
+2.      "      "      "      "      "   on sub
+2.      "      "      "      "      "   on subgift
+2. donations trigger a message and points are given
+6. streamlabssignup works as intended
+7. streamlabs keys are available where they are needed
+8. streamlabs alerts are sent
