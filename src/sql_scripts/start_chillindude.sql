@@ -1,0 +1,1 @@
+UPDATE channel_settings SET is_running = 1 WHERE channel = 'chillindude'

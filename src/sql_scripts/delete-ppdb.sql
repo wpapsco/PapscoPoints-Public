@@ -1,0 +1,10 @@
+DELETE FROM ppdb.rewards;
+DELETE FROM ppdb.redeemed_rewards;
+DELETE FROM ppdb.channel_settings;
+DELETE FROM ppdb.points;
+DELETE FROM ppdb.contest_entrants;
+DELETE FROM ppdb.contests;
+DELETE FROM ppdb.contest_options;
+DELETE FROM ppdb.lotteries;
+DELETE FROM ppdb.lottery_entrants;
+DELETE FROM streamlabs_keys;
