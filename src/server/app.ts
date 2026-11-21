@@ -12,7 +12,6 @@ var bodyParser = require('body-parser');
 var mysql = require('mysql');
 var basicAuth = require('express-basic-auth');
 var request = require('request');
-var startminecraftserver = require('./routes/minecraftserver');
 var bot = require('../bot/botmain').default;
 var sqlhelper = require('../sqlhelper').default;
 
@@ -120,14 +119,6 @@ app.use('/streamlabssignup', function (req: Req, res) { //TODO: test (should wor
         .then(() => res.redirect('/settingss'))
     });
   });
-});
-
-app.use('/minecraftserver', basicAuth({
-  users: { 'pleasesir': 'canihavesomeminecraftsir' },
-  challenge: true,
-}), startminecraftserver);
-app.use((req, res) => {
-  res.sendFile(path.normalize(path.join(__dirname + "/../../express", 'public', 'index.html')))
 });
 
 // catch 404 and forward to error handler
